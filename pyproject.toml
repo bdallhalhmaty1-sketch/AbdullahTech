@@ -1,0 +1,16 @@
+[project]
+name = "abdullah-tech"
+version = "1.0.0"
+description = "Abdullah Tech"
+dependencies = [
+    "flet>=0.28.0"
+]
+
+[tool.flet]
+product = "Abdullah Tech"
+org = "com.abdullahtech"
+
+[tool.flet.android]
+min_sdk_version = 24
+target_sdk_version = 34
+permissions = ["INTERNET"]
